@@ -1,0 +1,113 @@
+.Container{
+    border:1px solid #111;
+    border-radius: 25px;
+    margin:20px;
+    border-color: #0491aa;
+    background-color: rgb(232, 220, 247);
+    text-align: center;
+    -webkit-user-select:none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: "./images/96-Lake.png";
+}
+
+input[type=text]{
+    width: 13%;
+    padding: 5px 5px;
+    
+}
+hr {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+input[type=text]:focus {
+    width: 35%;
+
+  }
+input[type=radio]{
+    margin:5px;
+    height:18px;
+    width:18px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  [type=radio] + img {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+    outline: 1px solid rgb(8, 8, 8); 
+   outline-style:double;
+   border-radius: 8px;
+    
+  }
+  .text{
+      opacity: 0;
+  }
+  .text:hover{
+      opacity: 1;
+  }
+label{
+    text-align:justify;
+    opacity :1;
+    padding: 6px 0rem;
+    color: rgb(0, 0, 0);
+    font-weight:normal;
+    font-family:'Nunito', sans-serif;
+    font-size: smaller;
+    
+}
+ 
+
+img{
+    width:8%;
+    margin-top:20px;
+    margin-right: 10vh;
+    height:auto;
+    background-repeat: no-repeat;
+    padding-right: 4px;
+    border-radius: 2;
+    mix-blend-mode: multiply;
+    
+    
+}
+img:hover {
+    transform: scale(1.2);
+    
+    }
+button{
+    background-color: #b55dae;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:center;
+  }
+button:hover{
+    transition: all 0.3s ease-out;
+    background: rgb(181, 126, 237);
+    color: #242424;
+    transition: 250ms;
+}
+i{
+    padding:5px;
+    color:rgb(105, 97, 97);
+}
+h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: rgb(111, 69, 141);
+}

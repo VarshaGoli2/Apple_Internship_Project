@@ -1,0 +1,44 @@
+.Report-container{
+  height: 95vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding-bottom:8px;
+} 
+.Links{
+    border:1px solid rgb(0, 0, 0);
+    transition: all 0.2s ease-out;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 50px;
+    
+
+}
+.Report-container i{
+    color: rgb(195, 153, 239);
+    display: table-cell;
+    text-align:center;
+    vertical-align: middle;
+    padding-top:20px;
+    padding-inline-end: 20px;
+}
+.Report-container ul{
+    padding-bottom: 30px;
+}    
+    
+
+.Report-container a{
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    padding-top:18px;
+    font-size:x-large;
+    font-weight: bolder;
+    color:rgb(116, 187, 184);
+    display:contents;
+    flex-direction: column;  
+}

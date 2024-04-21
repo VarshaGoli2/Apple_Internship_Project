@@ -1,0 +1,36 @@
+.tab{
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+}
+ table{
+    padding-top:30px;
+     border:1px solid transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    }
+ td,th{
+   
+    color:black;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    width: 100px;
+    
+}
+tr:nth-child(even){
+    background: #a974a5;
+    text-align: center;
+}
+th{
+    background-color: #bbc5ea;
+    color:darkslategrey;
+}
+tr:hover{
+    background-color: rgb(210, 206, 213);
+}
+

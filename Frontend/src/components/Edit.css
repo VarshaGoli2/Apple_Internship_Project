@@ -1,0 +1,41 @@
+.uss .severityLevel{
+  right: -8px;
+  width: 120px;
+  position:relative;
+}
+.uss .damages{
+  right: -8px;
+  width: 120px;
+  position:relative;
+}
+.uss .addInfo{
+  right: -8px;
+  width: 120px;
+  position:relative;
+}
+.uss{
+  width: 450px;
+  right: -60px;
+  position:relative;
+  bottom: 65px;
+  height: 75px;
+}
+.uss .vertical{
+  border-left: 2px solid white;
+  height: 300px;
+  left: 40px;
+  position:absolute;
+  top:-100px;
+}
+.uss .heading{
+  bottom:83px;
+  position:absolute;
+  color:darkslategrey;
+  height: 48px;
+  width:450px;
+  left:-60px;
+  background-color: #bbc5ea;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 90px;
+}
