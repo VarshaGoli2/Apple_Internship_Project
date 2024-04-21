@@ -1,0 +1,18 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~
+
+# Home page
+POST    /incidents                        controllers.ic.addIncident()
+GET     /incidents/:incidentId            controllers.ic.getIncident(incidentId: Integer)
+GET     /incidents/list/:deviceId            controllers.ic.listIncidents(deviceId: Integer)
+GET     /findall                   controllers.ic.listallIncidents()
+DELETE  /incidents/:incidentId            controllers.ic.deleteIncident(incidentId: Integer)
+
+GET     /incidents/findbyl/:location              controllers.ic.findByLoc(location: String)
+GET     /incidents/findbyt/:incidentType             controllers.ic.findByTime(incidentType: String)
+
+POST    /incidents/update                         controllers.ic.updateIncident()
+POST    /incidents/vote                         controllers.ic.voteIncident()
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
